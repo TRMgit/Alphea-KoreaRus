@@ -1,0 +1,2 @@
+#Russian and Korean alphabet trainer which mixes and matches latin alphabet to Korean and Russian alphabet to Korean.
+#This trainer is for people who have already had a quick look at the letters before.
