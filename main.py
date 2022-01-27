@@ -79,7 +79,6 @@ time.sleep(0.5)
 print("ㅣ    er en standard i.")
 time.sleep(0.5)
 
-print("")
 input(" ")
 input("Skriv hva som helst for å fortsette når du er klar ")
 print("endofdemo")
