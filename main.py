@@ -3,20 +3,25 @@
 
 import datetime as dt
 import time
+import random as rand
 fortsette = True
 
-print("Hei! i dette programmet kan du lære både en liten miks av Russisk alfabet og Koreans alfabet med mest fokus på")
+print("Hei! i dette programmet kan du lære Koreans alfabet.")
 print("det Koreanske alfabet. OBS! Du må kunne det Russiske alfabetet fra før av.")
-vlstrt = input("Vil du starte? y/n ").lower()
+vlstrt = str(input("Vil du starte? y/n ")).lower()
 
 while fortsette:
-    if vlstrt == "y" or "yes" or "ja":
+    if vlstrt == ("y" or "yes" or "ja"):
+        print('')
         break
-    elif (vlstrt == "n" or "no" or "nei"): # gjør at alt dette funker
+    elif vlstrt == ("n" or "no" or "nei"): # gjør at alt dette funker
         print("Greit. Start gjerne opp programmet igjen om du vil prøve.")
-
+        time.sleep(3)
     else:
         print("Du tastet inn noe feil. Prøv igjen.") # fisk at den spammer omigjen
+        time.sleep(3)
+
+
 
 print("La oss starte:")
 time.sleep(3)
@@ -24,7 +29,7 @@ print("Det er 24 bokstaver i det Koreanske alfabetet.")
 time.sleep(3)
 
 print("Selv om det ser avansert ut er ikke det det mest avanserte å lære.")
-time.sleep(2)
+time.sleep(3)
 print("Her er en liste med alle bokstavene og hva de betyr (Selvstudér):")
 time.sleep(4)
 print("ㄱ    er en G eller K ettersom hva som er før og etter i setningen.")
@@ -37,43 +42,41 @@ print("ㄹ    er ganske vanskelig å lære å lese. Det kan være en L eller R o
 time.sleep(0.5)
 print("ㅁ    er en standard M.")
 time.sleep(0.5)
-print("ㅁ    er en standard p eller b avhengig av plassering.")
+print("ㅂ    er en standard p eller b avhengig av plassering.")
 time.sleep(0.5)
-print("ㅁ    er en standard s.")
+print("ㅅ    er en standard s.")
 time.sleep(0.5)
-print("ㅁ    er en standard ng.")
+print("ㅇ    er ng om den ligger på slutten av hver klump.")
 time.sleep(0.5)
-print("ㅁ    er en standard j.")
+print("ㅈ    er en standard j.")
 time.sleep(0.5)
-print("ㅁ    er en standard ch.")
+print("ㅊ    er  ch.")
 time.sleep(0.5)
-print("ㅁ    er en standard k.")
+print("ㅋ    er en standard k.")
 time.sleep(0.5)
-print("ㅁ    er en standard t.")
+print("ㅌ    er en standard t.")
 time.sleep(0.5)
-print("ㅁ    er en standard p.")
+print("ㅎ    er en standard h.")
 time.sleep(0.5)
-print("ㅁ    er en standard h.")
+print("ㅏ    er en standard a.")
 time.sleep(0.5)
-print("ㅁ    er en standard a.")
+print("ㅑ    er en  ya og uttales ja.")
 time.sleep(0.5)
-print("ㅁ    er en  ya og uttales ja.")
+print("ㅓ    er en eo og uttales å.")
 time.sleep(0.5)
-print("ㅁ    er en eo og uttales å.")
+print("ㅕ    er en  yeo og uttales yå.")
 time.sleep(0.5)
-print("ㅁ    er en  yeo og uttales yå.")
-time.sleep(0.5)
-print("ㅁ    er en standard o.")
+print("ㅗ    er en standard o.")
 time.sleep(0.5)
 print("ㅁ    er en yo og uttales jo.")
 time.sleep(0.5)
-print("ㅁ    er en standard u.")
+print("ㅜ    er en standard u.")
 time.sleep(0.5)
-print("ㅁ    er en  yu.")
+print("ㅠ    er en  yu.")
 time.sleep(0.5)
-print("ㅁ    er en eu og uttales u.")
+print("ㅡ    er en eu og uttales u.")
 time.sleep(0.5)
-print("ㅁ    er en standard i.")
+print("ㅣ    er en standard i.")
 time.sleep(0.5)
 
 input(" ")
